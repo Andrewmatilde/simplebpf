@@ -1,0 +1,20 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang-14",
+      "-g",
+      "-O2",
+      "-target",
+      "bpf",
+      "-D__TARGET_ARCH_x86",
+      "-Ilibbpf-bootstrap/vmlinux.h/include/x86/",
+      "-c",
+      "-o",
+      "skb_count.bpf.o",
+      "skb_count.bpf.c"
+    ],
+    "directory": "/root/simplebpf",
+    "file": "/root/simplebpf/skb_count.bpf.c",
+    "output": "/root/simplebpf/skb_count.bpf.o"
+  }
+]
